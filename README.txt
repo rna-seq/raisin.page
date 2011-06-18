@@ -1,4 +1,4 @@
-= rnaseq.page =
+= raisin.page =
 
 This packages contains the pages.ini file, defining the pages available for the
 repoze.bfg server.
@@ -30,7 +30,7 @@ This is an example of a project page definition in the pages.ini file:
     [project]
     title = Project
     path = 'project/:project_name/'
-    renderer = rnaseq.page:templates/statistics.pt
+    renderer = raisin.page:templates/statistics.pt
     rows = row1, row2,
     cols = col1, col2,
     breadcrumbs = homepage,

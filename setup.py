@@ -3,7 +3,7 @@ import sys, os
 
 version = '1.0'
 
-setup(name='rnaseq.page',
+setup(name='raisin.page',
       version=version,
       description="",
       long_description="""\
@@ -15,8 +15,8 @@ setup(name='rnaseq.page',
       url='',
       license='',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-      namespace_packages = ['rnaseq'],
-      package_data = {'rnaseq.page':['*.ini', 
+      namespace_packages = ['raisin'],
+      package_data = {'raisin.page':['*.ini', 
                                      'templates/*.pt',
                                      'templates/static/*.css',
                                      'templates/static/images/*.gif',
