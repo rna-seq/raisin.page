@@ -40,13 +40,15 @@
         <div id="globalnav">
         </div>
         <div id="userlinks">
+        <p>
             <a tal:condition="logged_in"
                  rel="nofollow"
                  href="/logout">Sign out</a>
             <a tal:condition="python:not logged_in"
                  rel="nofollow"
                 href="/login" >Sign in</a>
-            </div>
+        </p>
+        </div>
     </div><!--/header-->
     <div id="main">
 
