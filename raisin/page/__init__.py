@@ -3,9 +3,9 @@
 PAGES: Read from the pages.ini file
 
     * Used by raisin.pyramid to register pages in Pyramid
-    
+
     * Used by raisin.restyler to render pages
-    
+
 """
 
 import os
