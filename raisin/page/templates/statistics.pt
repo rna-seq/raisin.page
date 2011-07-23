@@ -110,11 +110,11 @@
         <div class="module-content" tal:attributes="id python:chart['id']">
             <div class="accentheader">
                 <h2>
-                    <tal:block condition="python:not chart.has_key('tab_link')"
+                    <tal:block condition="python:not 'tab_link' in chart"
                                content="python:chart.get('title', '')">
                     </tal:block>
                 
-                    <tal:block condition="python:chart.has_key('tab_link')">
+                    <tal:block condition="python:'tab_link' in chart">
                         <tal:block repeat="tab python:context.tabs">
                             <tal:block condition="python:tab['id'] == chart['tab_link']">
                                 <a style="color: #FC9D00;"
@@ -127,12 +127,12 @@
                 
                 </h2> 
                 <p class="schema-extra" style="float:right"
-                   tal:condition="python:chart.has_key('charttype') and (chart.has_key('csv_download_url') or chart.has_key('html_download_url'))">
+                   tal:condition="python:'charttype' in chart and ('csv_download_url' in chart or 'html_download_url' in chart)">
                     <a class="" 
-                       tal:condition="python:chart.has_key('csv_download_url')"
+                       tal:condition="python:'csv_download_url' in chart"
                        tal:attributes="href python:chart['csv_download_url']">.csv</a>
                     <a class="" 
-                       tal:condition="python:chart.has_key('html_download_url')"
+                       tal:condition="python:'html_download_url' in chart"
                        tal:attributes="href python:chart['html_download_url']">.html</a>
                 </p>        
 
