@@ -30,7 +30,7 @@
 <script type="text/javascript" src="${request.application_url}/static/systemsbiology-visualizations/js/namespace.js"></script>
 <script type="text/javascript" src="${request.application_url}/static/systemsbiology-visualizations/js/bioheatmap.js"></script>
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript" tal:content="structure python:getattr(context, 'javascript', '')"></script>
+<script type="text/javascript" tal:content="structure python:context.get_javascript()"></script>
 
 </head>
 <body class="generic">
