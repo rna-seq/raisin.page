@@ -1,11 +1,4 @@
 * text=auto !eol
-/README.txt -text
-raisin/__init__.py -text
-raisin/page/__init__.py -text
-raisin/page/pages.ini -text
-raisin/page/templates/box.pt -text
-raisin/page/templates/homepage.pt -text
-raisin/page/templates/static/base.css -text
 raisin/page/templates/static/favicon.ico -text
 raisin/page/templates/static/images/buttonbg.gif -text
 raisin/page/templates/static/images/favicon.ico -text
@@ -19,17 +12,3 @@ raisin/page/templates/static/images/prevarrow_disabled.gif -text
 raisin/page/templates/static/images/prevarrow_hover.gif -text
 raisin/page/templates/static/images/splicing.gif -text
 raisin/page/templates/static/images/splicing.png -text
-raisin/page/templates/static/systemsbiology-visualizations/css/exportDataTable.css -text
-raisin/page/templates/static/systemsbiology-visualizations/css/filterDataTableControl.css -text
-raisin/page/templates/static/systemsbiology-visualizations/js/bioheatmap.js -text
-raisin/page/templates/static/systemsbiology-visualizations/js/eventListenerAdapter.js -text
-raisin/page/templates/static/systemsbiology-visualizations/js/exportDataTable.js -text
-raisin/page/templates/static/systemsbiology-visualizations/js/filterDataTableControl.js -text
-raisin/page/templates/static/systemsbiology-visualizations/js/load.js -text
-raisin/page/templates/static/systemsbiology-visualizations/js/mappedSelectEventPropagation.js -text
-raisin/page/templates/static/systemsbiology-visualizations/js/namespace.js -text
-raisin/page/templates/static/systemsbiology-visualizations/js/visualizationDrawDataPropagation.js -text
-raisin/page/templates/statistics.pt -text
-/setup.cfg -text
-/setup.py -text
-/version.txt -text

@@ -1,0 +1,14 @@
+/*.pyc
+/*.pyo
+raisin/*.pyc
+raisin/*.pyo
+raisin/page/*.pyc
+raisin/page/*.pyo
+raisin/page/templates/*.pyc
+raisin/page/templates/*.pyo
+raisin/page/templates/static/*.pyc
+raisin/page/templates/static/*.pyo
+raisin/page/templates/static/systemsbiology-visualizations/css/*.pyc
+raisin/page/templates/static/systemsbiology-visualizations/css/*.pyo
+raisin/page/templates/static/systemsbiology-visualizations/js/*.pyc
+raisin/page/templates/static/systemsbiology-visualizations/js/*.pyo
