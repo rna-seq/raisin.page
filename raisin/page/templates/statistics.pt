@@ -151,7 +151,7 @@
     </div><!--/main-->
     <div id="footer">
         <p class="links extra"><a href="${request.application_url}/">Home</a></p>
-        <p class="legal">© 2011 CRG.</p>
+        <p class="legal">© 2012 CRG.</p>
         <p class="links">
             RNASeq:
             <strong class="cities">
