@@ -1,4 +1,5 @@
 * text=auto !eol
+/CHANGES.txt -text
 raisin/page/templates/static/favicon.ico -text
 raisin/page/templates/static/images/buttonbg.gif -text
 raisin/page/templates/static/images/favicon.ico -text
