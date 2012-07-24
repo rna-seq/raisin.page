@@ -155,12 +155,12 @@
         <p class="links">
             RNASeq:
             <strong class="cities">
-                  <a href="${request.application_url}/project/ENCODE/tab/experiments/">ENCODE</a>
-                  <a href="${request.application_url}/project/Breast/tab/experiments/">Breast</a>
-                  <a href="${request.application_url}/project/Down/tab/experiments/">Down</a>
-                  <a href="${request.application_url}/project/CLL/tab/experiments/">CLL</a>
-                  <a href="${request.application_url}/project/HBM/tab/experiments/">HBM</a>
-                  <a href="${request.application_url}/project/Dm3/tab/experiments/">Dm3</a>
+                  <a href="${request.application_url}/project/ENCODE/">ENCODE</a>
+                  <a href="${request.application_url}/project/Breast/">Breast</a>
+                  <a href="${request.application_url}/project/Down/">Down</a>
+                  <a href="${request.application_url}/project/CLL/">CLL</a>
+                  <a href="${request.application_url}/project/HBM/">HBM</a>
+                  <a href="${request.application_url}/project/Dm3/">Dm3</a>
             </strong>
         </p>
     </div><!--/footer-->
