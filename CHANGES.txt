@@ -1,3 +1,5 @@
+- Use shorter URLs pointing to the projects in templates/statistics.pt
+
 1.2 (2012-07-20)
 ================
 
