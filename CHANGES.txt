@@ -1,3 +1,5 @@
+- In page/pages.ini, Use URLs without specifying the tab part
+
 - Use shorter URLs pointing to the projects in templates/statistics.pt and
   templates/homepage.pt
 
