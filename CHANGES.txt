@@ -1,4 +1,5 @@
-- Use shorter URLs pointing to the projects in templates/statistics.pt
+- Use shorter URLs pointing to the projects in templates/statistics.pt and
+  templates/homepage.pt
 
 1.2 (2012-07-20)
 ================
